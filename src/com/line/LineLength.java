@@ -55,24 +55,24 @@ public class LineLength {
 		y2 = read.nextDouble();
 		
 		System.out.print(" Enter x3: ");
-		this.x3 = read.nextDouble();
+		x3 = read.nextDouble();
 		
 		System.out.print(" Enter y3: ");
-		this.y3 = read.nextDouble();
+		y3 = read.nextDouble();
 		
 		System.out.print(" Enter x4: ");
-		this.x4 = read.nextDouble();
+		x4 = read.nextDouble();
 		
 		System.out.print(" Enter y4: ");
-		this.y4 = read.nextDouble();
+		y4 = read.nextDouble();
 		
 		length = Math.sqrt( Math.pow((x2 - x1), 2) + Math.pow((y2 - y1), 2));
 		
 		System.out.println("\n The first point is : (" + x1 + ", " + y1 + ")");
 		System.out.println(" The second point is : (" + x2 + ", " + y2 + ")");		
 		
-		System.out.println(" The third point is : (" + this.x3 + ", " + this.y3 + ")");
-		System.out.println(" The fourth point is : (" + this.x4 + ", " + this.y4 + ")\n");
+		System.out.println(" The third point is : (" + x3 + ", " + y3 + ")");
+		System.out.println(" The fourth point is : (" + x4 + ", " + y4 + ")\n");
 		
 		
 		
